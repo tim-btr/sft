@@ -1,0 +1,17 @@
+{
+  "name": "HW38",
+  "homepage": "https://github.com/tim-btr/HW38",
+  "authors": [
+    "user <kido_koiin@mail.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

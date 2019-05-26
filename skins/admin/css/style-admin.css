@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+body {
+	margin:0px;
+	padding:0px;
+	background-color: #538791;
+}
+
+.clear {
+	clear:both;
+}
+
+.adm-empty {
+	padding:50px 0px;
+	text-align:center;
+	margin:0px auto;
+}
+
+.adm-top-banner  {
+	margin-top:30px;
+	padding-right:30px;
+}
+
+.adm-top-banner img {
+	padding-left:30px;
+	padding-bottom:10px;
+}
+
+.adm-menu-div {
+   background: #363636;
+   padding:30px;
+}
+
+.adm-inner {
+	background:#E1E1E1;
+}
+
+.admin-top-link {
+	margin-top:37px;
+	display:inline-block;
+	padding:10px;
+	text-decoration:none;
+	border-bottom:3px solid transparent;
+	font-family: verdana;
+	font-weight: bold;
+    font-size: 18px;
+    color: white;
+	letter-spacing: 0px;
+	text-transform:capitalize;
+	float:right;
+}
+
+.admin-top-link:hover {
+	border-bottom:3px solid #FFAA2A;
+	color: #FFAA2A;
+}
+
+.admin-menu-link {
+	color: white;
+	border:3px solid transparent;
+	display:inline-block;
+	padding:10px;
+	text-transform:capitalize;
+	font-weight: bold;
+    font-size: 18px;
+	font-family: verdana;
+	text-decoration:none;
+	margin-right:25px;
+}
+
+.adm-menu-div .admin-menu-link:hover {
+	color: #FFAA2A;
+	border:3px solid #FFAA2A;
+	border-radius:4px;
+}
+
+
+.admin-edit-button  {
+	text-transform:capitalize;
+	font-weight: bold;
+    font-size: 18px;
+	color: #878787;
+	font-family: verdana;
+	text-decoration:none;
+	display:inline-block;
+	padding-left:2px;
+}
+
+.aeb-edt {
+	background:url(/skins/admin/img/edit.png) no-repeat left;
+	background-size:contain;
+	margin-right:25px;
+	padding-left:20px;
+}
+
+.aeb-del {
+	background:url(/skins/admin/img/trash.png) no-repeat left;
+	background-size:contain;
+	padding-left:25px;
+}
+
+.admin-edit-button:hover {
+	color: #FFAA2A;
+}
+
+.adm-del-buttons {
+	padding:30px;
+}
+
+.admin-showallform input {
+	text-align:left;
+}
+
+.admin-showall {
+    font-weight:bold;
+	font-size: 20px;
+	word-wrap:break-word;
+	padding:15px 25px 15px 25px;
+	text-align:left;
+	border-bottom:1px dotted black;
+	overflow:auto;
+}
+
+.edits {
+	float:right;
+	padding:0px 10px;
+}
+
+.edits a {
+	font-weight:100;
+	text-decoration:none;
+	
+}
+
+.adm-prod-cont {
+	margin-top:10px;
+}
+
+.add-goods-submit {
+	display:block;
+	text-decoration:none;
+	text-transform:capitalize;
+	border:2px solid #878787;
+	border-radius:5px;
+	float:right;
+	font-size:15px;
+	text-align:center;
+	margin-top:5px;
+	height:40px;
+	width:100px;
+	background-size: contain;
+	color:#878787;
+}
+
+.del-goods-submit {
+	margin-right:0px;
+	display:block;
+	text-decoration:none;
+	text-transform:capitalize;
+	border:2px solid #878787;
+	border-radius:5px;
+	float:left;
+	padding:5px;
+	font-size:15px;
+	text-align:center;
+	height:30px;
+	width:100px;
+	background:url(../img/bg-commented.jpg) repeat-x;
+	background-size: contain;
+	color:#878787;
+}
+
+.del-goods-submit:hover {
+	border:2px solid red;
+	color:red;
+	cursor:pointer;
+}
+
+.add-goods-submit:hover {
+	border:2px solid #FFAA2A;
+	color:#FFAA2A;
+}
+
+.add-form table {
+	margin:0px auto;
+}
+
+.add-form table tr td,th {
+	padding:15px;
+}
+
+.add-form span {
+	color:red;
+}
+
+.admin-goods-notice {
+	font-size:25px;
+	color: #55AAFF;
+	font-weight:bold;
+	text-align:center;
+	padding:25px;
+}
+
+.adm-inner .admin-access-notice {
+    font-size:25px;
+	color: #55AAFF;
+	font-weight:bold;
+	text-align:center;
+	padding:25px;
+}
+
+.login-form .auth-form {
+	text-align:center;
+}
+
+.adm-comm-edit-table  {
+	margin:0px auto;
+}
+
+.adm-comm-edit-table tr td {
+	padding:10px;
+}
+
+.adm-comm-edit-table span {
+	color:red;
+}
+
+.adm-footer {
+	padding:20px 0px;
+	text-align:center;
+}
+
+.admin-showall .prod-article {
+	font-size:12px;
+	display:inline-block;
+	font-weight:100;
+}
+
+.admin-showall .edits .admin-menu-link {
+	margin-right:0px;
+}
+
+.admin-foot-link {
+	display:inline-block;
+	padding:15px;
+	text-decoration:none;
+	font-family: verdana;
+	font-weight: bold;
+    font-size: 18px;
+    color: white;
+	letter-spacing: 0px;
+	text-transform:capitalize;
+}
+
+/* ----------------------- users, edit users-------------------- */
+.admin-users-notice {
+	font-size:25px;
+	font-weight:bold;
+	color: #55AAFF;
+	text-align:center;
+	padding:25px;
+}
+
+.user-search-form {
+	padding-left:25px;
+}
+
+.adm-us-search{
+	padding-left:25px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.all-users-table{
+	width:100%;
+	padding: 35px auto;
+}
+
+.admin-showall span {
+	font-size:18px;
+	font-weight:100;
+}
+
+.all-users-table tr td{
+	padding: 20px 0px 20px 0px;
+}

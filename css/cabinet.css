@@ -1,0 +1,64 @@
+/*================== CABINET ======================= */
+
+.greetings{
+	text-align: center;
+}
+
+.prof-pic {
+	float:left;
+	margin-right:30px;
+}
+
+.prof-name {
+	font-size:24px;
+	font-weight: bold;
+	display: inline-block;
+	float:left;
+}
+
+.prof-last-vis {
+	display: inline-block;
+	float:right;
+}
+
+.prof-table {
+	float: left;
+	width:50%;
+}
+
+.prof-table tr td {
+	padding-top:20px;
+}
+
+.prof-edit {
+	text-decoration: none;
+	color:black;
+	display:inline-block;
+	padding:5px;	
+	margin-top:25px;
+	border:1px solid black;
+	border-radius:2px;
+}
+
+.prof-edit:hover {
+	color:#ee5333;
+	border:1px solid #ee5333;
+}
+
+.prof-edit-table {
+	margin:0px auto;
+}
+
+.prof-edit-table span {
+	color:red;
+}
+
+.prof-del-pic {
+	text-decoration: none;
+	color:#fff;
+	display:inline-block;
+	padding:6px;	
+	margin-top:25px;
+	border-radius:2px;
+	background-color:#ee5333; 
+}

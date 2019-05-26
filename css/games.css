@@ -1,0 +1,47 @@
+/*================== GAMES ======================= */
+.the-game {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.games-platf {
+	float:left;
+}
+
+.games-name {
+	text-transform: capitalize;
+	float:left;
+}
+
+.games-name2 {
+	text-transform: capitalize;
+}
+
+
+.games-more {
+	text-decoration:none;
+	display:inline-block;
+	padding:8px;
+	color:#fff;
+	background-color: #0B304B;
+	border-radius:5px;
+	margin-top: 15px;
+}
+
+
+.games-descr {
+	margin-top: 15px;
+}
+
+.add-game {
+	display:inline-block;
+	padding:2px;
+	margin-top:15px;
+	font-size: 14px;
+	text-decoration:none !important;
+	color:#5A87FB;
+	border:1px solid #5A87FB;
+	border-radius:3px;
+	float:right;
+	text-transform: uppercase;
+}

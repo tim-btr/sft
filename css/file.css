@@ -1,0 +1,79 @@
+/*================== FILE ======================= */
+
+.file-catalog .dir {
+	color:#FFAA55;
+	text-decoration:none;
+	font-size:22px;
+	font-weight:bold;
+	display:inline-block;
+	margin-left:3px;
+}
+	  
+.file-catalog p {
+	display:inline-block;
+	font-size:18px;
+	margin-left:3px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+
+.dir-icon {
+	display:inline-block;
+	width:13px;
+	height:16px;
+	background-image: url(./dir.jpg);
+}
+	  
+.file-icon {
+   display:inline-block;
+   background-image: url(./file.jpg);
+   width:13px;
+   height:16px;
+}
+
+.comm-content {
+	width: 720px;
+	height:auto;
+	margin:20px auto 30px;
+	border:2px solid #435c69;
+	border-radius:8px;
+	background-color:#41C1EB;
+	word-wrap:break-word;
+	
+}
+
+.comm {
+	padding:15px 5px 5px 5px;
+	background-color:#41C1EB;
+	margin-bottom:9px;
+	border-bottom:1px dashed black;
+}
+
+.comm-date {
+	display:inline-block;
+	margin-left:20px;
+	font-size:11px;
+}
+
+.comm-submit {
+	font-size:18px;
+	height:45px;
+	width:100%;
+	background:url(../img/bg-commented.jpg) repeat-x;
+	background-size: contain;
+	color:white;
+}
+
+.comm-submit:hover {
+	cursor:pointer;
+}
+
+.comm-table {
+	width: 400px;
+	margin:0px auto;
+}
+
+.comm-table tr td {
+	padding:5px;
+}
